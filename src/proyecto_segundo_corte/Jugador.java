@@ -55,4 +55,10 @@ public class Jugador extends Personajes{
     public void setRango(char rango){
         this.rango = rango;
     }
+    
+    @Override
+    public String toString(){
+        return "Jugador: "+getNombre()+"   |   Nivel: "+getNivel()+"\nVida: "+getVida()+"   |   Vivo: "+getVivo()
+                +"\nClase: "+clase+"   |   Dinero: "+dinero+"\nXP: "+xp+"   |   Rango: "+rango;
+    }
 }
