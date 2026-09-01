@@ -47,4 +47,9 @@ public class Personajes {
     public void setVivo(boolean vivo){
         this.vivo = vivo;
     }
+    
+    @Override
+    public String toString(){
+        return "Personaje: "+nombre+"   |   Nivel: "+nivel+"\nVida: "+vida+"   |   Vivo: "+vivo;
+    }
 }
