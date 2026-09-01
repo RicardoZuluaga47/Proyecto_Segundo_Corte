@@ -27,4 +27,32 @@ public class Jugador extends Personajes{
         this.xp = 0;
         this.dinero = 0;
     }
+    
+    public String getClase(){
+        return clase;
+    }
+    public void setClase(String clase){
+        this.clase = clase;
+    }
+    
+    public int getDinero(){
+        return dinero;
+    }
+    public void setDinero(int dinero){
+        this.dinero = dinero;
+    }
+    
+    public double getXp(){
+        return xp;
+    }
+    public void setXp(double xp){
+        this.xp = xp;
+    }
+    
+    public char getRango(){
+        return rango;
+    }
+    public void setRango(char rango){
+        this.rango = rango;
+    }
 }
