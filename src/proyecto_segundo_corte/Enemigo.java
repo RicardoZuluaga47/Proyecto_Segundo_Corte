@@ -27,4 +27,32 @@ public class Enemigo extends Personajes{
         this.daño = 0;
         this.jefe = false;
     }
+    
+    public String getRaza(){
+        return raza;
+    }
+    public void setRaza(String raza){
+        this.raza = raza;
+    }
+    
+    public int getRecompensa(){
+        return recompensa;
+    }
+    public void setRecompensa(int recompensa){
+        this.recompensa = recompensa;
+    }
+    
+    public double getXp(){
+        return daño;
+    }
+    public void setDaño(double daño){
+        this.daño = daño;
+    }
+    
+    public boolean getJefe(){
+        return jefe;
+    }
+    public void setJefe(boolean jefe){
+        this.jefe = jefe;
+    }
 }
