@@ -55,4 +55,10 @@ public class NPC extends Personajes{
     public void setEstado(char estado){
         this.estado = estado;
     }
+    
+    @Override
+    public String toString(){
+        return "Jugador: "+getNombre()+"   |   Nivel: "+getNivel()+"\nVida: "+getVida()+"   |   Vivo: "+getVivo()
+                +"\nMision: "+mision+"   |   Recompensa: "+recompensa+"\nDificultad: "+dificultad+"   |   Estado: "+estado;
+    }
 }
