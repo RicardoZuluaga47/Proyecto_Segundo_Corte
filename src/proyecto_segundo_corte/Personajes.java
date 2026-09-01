@@ -19,4 +19,32 @@ public class Personajes {
     public Personajes(){
         this("Sin nombre", 1, 100, true);
     }
+    
+    public String getNombre(){
+        return nombre;
+    }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+    
+    public int getNivel(){
+        return nivel;
+    }
+    public void setNivel(int nivel){
+        this.nivel = nivel;
+    }
+    
+    public double getVida(){
+        return vida;
+    }
+    public void setVida(double vida){
+        this.vida = vida;
+    }
+    
+    public boolean getVivo(){
+        return vivo;
+    }
+    public void setVivo(boolean vivo){
+        this.vivo = vivo;
+    }
 }
