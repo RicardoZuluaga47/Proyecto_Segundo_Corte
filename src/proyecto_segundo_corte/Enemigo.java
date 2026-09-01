@@ -42,7 +42,7 @@ public class Enemigo extends Personajes{
         this.recompensa = recompensa;
     }
     
-    public double getXp(){
+    public double getDaño(){
         return daño;
     }
     public void setDaño(double daño){
@@ -54,5 +54,11 @@ public class Enemigo extends Personajes{
     }
     public void setJefe(boolean jefe){
         this.jefe = jefe;
+    }
+    
+    @Override
+    public String toString(){
+        return "Jugador: "+getNombre()+"   |   Nivel: "+getNivel()+"\nVida: "+getVida()+"   |   Vivo: "+getVivo()
+                +"\nRaza: "+raza+"   |   Recompensa: "+recompensa+"\nDaño: "+daño+"   |   Jefe: "+jefe;
     }
 }
