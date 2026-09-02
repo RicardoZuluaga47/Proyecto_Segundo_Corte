@@ -58,7 +58,7 @@ public class Enemigo extends Personajes{
     
     @Override
     public String toString(){
-        return "Jugador: "+getNombre()+"   |   Nivel: "+getNivel()+"\nVida: "+getVida()+"   |   Vivo: "+getVivo()
-                +"\nRaza: "+raza+"   |   Recompensa: "+recompensa+"\nDaño: "+daño+"   |   Jefe: "+jefe;
+        return "Enemigo: "+getNombre()+"   |   Nivel: "+getNivel()+"\nVida: "+getVida()+"   |   Vivo: "+getVivo()
+                +"\nRaza: "+raza+"   |   Recompensa: "+recompensa+"\nDanio: "+daño+"   |   Jefe: "+jefe;
     }
 }

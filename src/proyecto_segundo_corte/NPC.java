@@ -58,7 +58,7 @@ public class NPC extends Personajes{
     
     @Override
     public String toString(){
-        return "Jugador: "+getNombre()+"   |   Nivel: "+getNivel()+"\nVida: "+getVida()+"   |   Vivo: "+getVivo()
+        return "NPC: "+getNombre()+"   |   Nivel: "+getNivel()+"\nVida: "+getVida()+"   |   Vivo: "+getVivo()
                 +"\nMision: "+mision+"   |   Recompensa: "+recompensa+"\nDificultad: "+dificultad+"   |   Estado: "+estado;
     }
 }

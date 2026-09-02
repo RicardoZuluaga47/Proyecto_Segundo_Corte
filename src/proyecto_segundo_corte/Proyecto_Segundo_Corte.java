@@ -14,7 +14,44 @@ public class Proyecto_Segundo_Corte {
         Enemigo jefe1 = new  Enemigo("Nekros", 50, 2470.0, false, "Nigromante", 1500, 68.85, true);
         
         NPC npc1 = new NPC();
-        NPC grangero1 = new NPC("Valeria", 73, "Mata al mago de la peste", 'P');
+        NPC granjero1 = new NPC("Valeria", 73, "Mata al mago de la peste", 'P');
         NPC herrero1 = new NPC("Serah", 35, 100.0, true, "Acaba con Nekros el Nigromante", 1500, 6.4, 'C');
+        
+        //Constructores vacios, valores predeterminados
+        System.out.println("ESTADO: PREDETERMINADO (SIN ASIGNACION DE VALORES)");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println(personaje1);
+        System.out.println("---------------------------------------------------");
+        System.out.println(player1);
+        System.out.println("---------------------------------------------------");
+        System.out.println(nomuerto1);
+        System.out.println("---------------------------------------------------");
+        System.out.println(npc1);
+        System.out.println("***************************************************");
+        
+        //Constructores incompletos, falta de conocimiento de todos los datos
+        System.out.println("ESTADO: INCOMPLETO (FALTA DE VALORES)");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println(personaje2);
+        System.out.println("---------------------------------------------------");
+        System.out.println(player2);
+        System.out.println("---------------------------------------------------");
+        System.out.println(nomuerto2);
+        System.out.println("---------------------------------------------------");
+        System.out.println(granjero1);
+        System.out.println("");
+        System.out.println("***************************************************");
+        
+        //Constructores completos, todos los datos asignados correctamente
+        System.out.println("ESTADO: COMPLETO");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println(personaje3);
+        System.out.println("---------------------------------------------------");
+        System.out.println(player3);
+        System.out.println("---------------------------------------------------");
+        System.out.println(jefe1);
+        System.out.println("---------------------------------------------------");
+        System.out.println(herrero1);
+        System.out.println("***************************************************");
     }    
 }
