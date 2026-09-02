@@ -13,12 +13,12 @@ public class NPC extends Personajes{
         this.estado = estado;
     }
     
-    public NPC(String nombre, int nivel, String mision, double dificultad){
+    public NPC(String nombre, int nivel, String mision, char estado){
         super(nombre, nivel);
         this.mision = mision;
         this.recompensa = 0;
-        this.dificultad = dificultad;
-        this.estado = '/';
+        this.dificultad = 0.0;
+        this.estado = estado;
     }
     
     public NPC(){

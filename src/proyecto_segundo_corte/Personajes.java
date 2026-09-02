@@ -13,11 +13,11 @@ public class Personajes {
     }
     
     public Personajes(String nombre, int nivel){
-        this(nombre, nivel, 0, true);
+        this(nombre, nivel, 0, false);
     }
     
     public Personajes(){
-        this("Sin nombre", 0, 0, true);
+        this("Sin nombre", 0, 0, false);
     }
     
     public String getNombre(){
